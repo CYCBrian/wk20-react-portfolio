@@ -3,20 +3,16 @@
 // import viteLogo from '/vite.svg'
 import './App.css';
 import PortfolioHeader from './components/header';
-import AboutMe from './components/about'
-import Portfolio from './components/portfolio'
 import PortfolioFooter from './components/footer';
-import Contact from './components/contact';
-// import Resume from './components/resume';
+import { Outlet } from 'react-router-dom'
 
 function App() {
   return (
     <div>
-      <PortfolioHeader />
-      <AboutMe/>
-      <Portfolio/>
-      {/* <Resume/> */}
-      <Contact/>
+      <PortfolioHeader/>
+      <main>
+        <Outlet/>
+      </main>
       <PortfolioFooter/>
     </div>
   );

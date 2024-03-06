@@ -28,18 +28,6 @@ function AboutMe(){
                 Hire me!
             </p>
             </section>
-            <section>
-                <section>
-{/* frontend */}
-                </section>
-                <section>
-{/* Backend */}
-                </section>
-                <section>
-{/* Other */}
-                </section>
-            </section>
-
         </section>
     )
 }
