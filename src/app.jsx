@@ -6,7 +6,8 @@ import PortfolioHeader from './components/header';
 import AboutMe from './components/about'
 import Portfolio from './components/portfolio'
 import PortfolioFooter from './components/footer';
-import ProjectList from './components/portfolio';
+import Contact from './components/contact';
+// import Resume from './components/resume';
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
       <PortfolioHeader />
       <AboutMe/>
       <Portfolio/>
+      {/* <Resume/> */}
+      <Contact/>
       <PortfolioFooter/>
-      <ProjectList/>
     </div>
   );
 }

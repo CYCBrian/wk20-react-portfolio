@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 // import images from assests later
 
 import kumamoImage from '../assets/kumamo-image.jpg';
@@ -7,7 +8,6 @@ const projects = [
     {
         id: 0,
         title: "Kumamo",
-        tech: "HTML5, CSS3, Javascript",
         image: kumamoImage,
         description: "Frontend single page web app that recommends recipes based on what you have in your fridge.",
         repo: "https://github.com/CYCBrian/project-1-kumamo-recipe-app",
@@ -16,7 +16,6 @@ const projects = [
     {
         id: 1,
         title: "Weather Dashboard",
-        tech: "HTML5, CSS3, Javascript",
         image: weatherImage,
         description: "Retrieve and view weather forecasts for multiple cities using an intuitive and easy-to-navigate user interface.",
         repo: "https://github.com/CYCBrian/module-6-challenge-server-api-weather-forecast-app?tab=readme-ov-file#links",
@@ -24,34 +23,35 @@ const projects = [
     },
 ];
 
-function Portfolio(props) {
+function ProjectCard(props) {
     return (
         <section>
             <h3>{props.title}</h3>
             <img src={props.image} alt={props.title} />
-            <p>{props.tech}</p>
             <p>{props.description}</p>
-            <a href={props.repo}>REPO</a>
-            <a href={props.live}>LIVE</a>
+            <section>
+                <a href={props.repo}>REPO</a>
+                <a href={props.live}>LIVE</a>
+            </section>
+
         </section>
     );
 }
 
 function ProjectList() {
     return (
-        <div>
+        <section>
             {projects.map(project => (
-                <Portfolio
+                <ProjectCard
                     key={project.id}
                     title={project.title}
-                    tech={project.tech}
                     image={project.image}
                     description={project.description}
                     repo={project.repo}
                     live={project.live}
                 />
             ))}
-        </div>
+        </section>
     );
 }
 
