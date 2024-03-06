@@ -1,4 +1,5 @@
 
+import profileImage from '../assets/half-my-face.jpg'
 
 function AboutMe(){
     return(
@@ -6,7 +7,7 @@ function AboutMe(){
             <h3>
                 About me
             </h3>
-            <img src="" alt="" />
+            <img src={profileImage} alt="Profile Pic" />
             <section>
             <p>
                 Just some guy who keeps complaining about bad websites.
@@ -26,6 +27,17 @@ function AboutMe(){
             <p>
                 Hire me!
             </p>
+            </section>
+            <section>
+                <section>
+{/* frontend */}
+                </section>
+                <section>
+{/* Backend */}
+                </section>
+                <section>
+{/* Other */}
+                </section>
             </section>
 
         </section>

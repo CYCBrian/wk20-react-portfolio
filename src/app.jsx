@@ -5,6 +5,8 @@ import './App.css';
 import PortfolioHeader from './components/header';
 import AboutMe from './components/about'
 import Portfolio from './components/portfolio'
+import PortfolioFooter from './components/footer';
+import ProjectList from './components/portfolio';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <PortfolioHeader />
       <AboutMe/>
       <Portfolio/>
+      <PortfolioFooter/>
+      <ProjectList/>
     </div>
   );
 }

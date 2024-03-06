@@ -3,8 +3,9 @@
 function PortfolioHeader(){
     return(
         <header>
+            <h2>Opps! All Errors!</h2>
             <h1>Brian Cheung</h1>
-            <h2>Fullstack Web Developer</h2>
+            <h2>Full Stack Web Developer</h2>
         </header>
     )
 }
