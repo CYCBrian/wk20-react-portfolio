@@ -6,8 +6,8 @@ function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleInputChange = (event) => {
-    const { name, value } = event.target;
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
     switch (name) {
       case "name":
         setName(value);
@@ -21,9 +21,9 @@ function Contact() {
     }
   };
 
-  const handleFormSubmit = (event) => {
-    event.preventDefault();
-    alert("Thanks for contacting me!");
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    alert("Thanks for reaching out!");
     setName("");
     setEmail("");
     setMessage("");
@@ -34,31 +34,31 @@ function Contact() {
       <h3>Let's chat!</h3>
       <form className="contactForm" onSubmit={handleFormSubmit}>
         <section>
-          <label htmlFor="name">Your Name:</label>
           <input
             value={name}
             name="name"
             onChange={handleInputChange}
             type="text"
+            placeholder="Name"
           />
         </section>
         <section>
-          <label htmlFor="email">Your email:</label>
           <input
             value={email}
             name="email"
             onChange={handleInputChange}
             type="text"
+            placeholder="Email"
           />
         </section>
         <section>
-          <label htmlFor="message">Your message:</label>
-          <textarea
+          <input
             value={message}
             name="message"
             onChange={handleInputChange}
             type="text"
-          ></textarea>
+            placeholder="Message"
+          />
         </section>
         <button type="submit">Submit</button>
       </form>

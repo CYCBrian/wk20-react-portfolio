@@ -28,14 +28,14 @@ function Navigation() {
           Contact
         </Link>
       </li>
-      {/* <li>
+      <li>
         <Link
           to="/resume"
           className={currentPage === "/resume"}
         >
           Resume
         </Link>
-      </li> */}
+      </li>
     </ul>
   );
 }
