@@ -1,4 +1,5 @@
 import Navigation from "../navigation/navigation";
+import "./header.css"
 
 function PortfolioHeader() {
   return (

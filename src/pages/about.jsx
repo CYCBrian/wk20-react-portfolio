@@ -16,7 +16,7 @@ function AboutMe(){
                 Decided to learn about web development so I can do better than these developers.
             </p>
             <p className='about-text'>
-                Turns out making websites are a lot harder than previously thought.
+                Realized making websites are a lot harder than previously thought.
             </p>
             <p className='about-text'>
                 Had multiple panic attacks during the bootcamp.

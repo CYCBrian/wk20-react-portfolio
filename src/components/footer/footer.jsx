@@ -1,6 +1,6 @@
 import GitHubLogo from "../../assets/github-142-svgrepo-com.svg";
-import LinkedInLogo from '../../assets/linkedin-svgrepo-com.svg'
-import "./footer.css"
+import LinkedInLogo from "../../assets/linkedin-svgrepo-com.svg";
+import "./footer.css";
 
 function PortfolioFooter() {
   return (
@@ -24,9 +24,9 @@ function PortfolioFooter() {
         </a>
       </section>
       <p className="footer-message">
-      {
-        "Frantically designed and barely held together by Brian Cheung \u00A9 2024"
-      }
+        {
+          "Frantically designed and barely held together by Brian Cheung \u00A9 2024"
+        }
       </p>
     </footer>
   );

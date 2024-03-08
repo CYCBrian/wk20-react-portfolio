@@ -1,18 +1,19 @@
-.footer-links{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding-top: 1.5rem;
 }
 .footer-icon {
-    max-height: 50px;
-  }
-  
-  .footer-icon:hover {
-    /* fill: #0f0f0f54; */
-    max-height: 60px;
-    transition: 0.3s;
-  }
-.footer-message {
+  max-height: 1.5rem;
+  transition: transform 0.3s;
+}
 
+.footer-icon:hover {
+  transform: scale(1.50);
+  transition: 0.3s;
+}
+.footer-message {
+  font-size: 0.75rem;
 }
