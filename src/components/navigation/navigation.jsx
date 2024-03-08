@@ -1,10 +1,12 @@
 import { Link, useLocation } from "react-router-dom";
+import "./navigation.css"
 
 function Navigation() {
   const currentPage = useLocation().pathname;
   return (
-    <ul>
-      <li>
+    <section className="nav-container">
+    <ul className="nav-bar">
+      <li className="nav-link">
         <Link
           to="/"
           className={currentPage === "/"}
@@ -12,7 +14,7 @@ function Navigation() {
           About Me
         </Link>
       </li>
-      <li>
+      <li className="nav-link">
         <Link
           to="/portfolio"
           className={currentPage === "/portfolio"}
@@ -20,7 +22,7 @@ function Navigation() {
           Portfolio
         </Link>
       </li>
-      <li>
+      <li className="nav-link">
         <Link
           to="/contact"
           className={currentPage === "/contact"}
@@ -28,7 +30,7 @@ function Navigation() {
           Contact
         </Link>
       </li>
-      <li>
+      <li className="nav-link">
         <Link
           to="/resume"
           className={currentPage === "/resume"}
@@ -37,6 +39,8 @@ function Navigation() {
         </Link>
       </li>
     </ul>
+    </section>
+
   );
 }
 

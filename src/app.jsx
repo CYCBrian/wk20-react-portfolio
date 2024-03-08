@@ -2,8 +2,8 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css';
-import PortfolioHeader from './components/header';
-import PortfolioFooter from './components/footer';
+import PortfolioHeader from './components//header/header';
+import PortfolioFooter from './components/footer/footer';
 import { Outlet } from 'react-router-dom'
 
 function App() {

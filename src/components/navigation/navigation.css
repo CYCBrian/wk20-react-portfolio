@@ -1,0 +1,9 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+}
+.nav-link{
+    list-style: none;
+}
+
