@@ -22,12 +22,12 @@ a:hover {
   color: #8187f5;
 }
 
-/* body {
+body {
   margin: 0;
-  display: flex;
+  /* display: flex;
   min-width: 320px;
-  min-height: 100vh;
-} */
+  min-height: 100vh; */
+}
 
 h1 {
   font-size: 3.2em;

@@ -28,19 +28,33 @@ const projects = [
 
 function ProjectCard(props) {
   return (
-      <section className="project-card">
-        <h3 className="project-title">{props.title}</h3>
-        <img className="project-image" src={props.image} alt={props.title} />
-        <p>{props.description}</p>
-        <section className="project-link-container">
-            <section className="link-container">
-            <a className="project-link" href={props.repo}>REPO</a>
-            </section>
-            <section className="link-container">
-            <a className="project-link" href={props.live}>LIVE</a>
-            </section>
+    <section className="project-card">
+      <h3 className="project-title">{props.title}</h3>
+      <img className="project-image" src={props.image} alt={props.title} />
+      <p>{props.description}</p>
+      <section className="project-link-container">
+        <section className="link-container">
+          <a
+            className="project-link"
+            href={props.repo}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            REPO
+          </a>
+        </section>
+        <section className="link-container">
+          <a
+            className="project-link"
+            href={props.live}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LIVE
+          </a>
         </section>
       </section>
+    </section>
   );
 }
 
