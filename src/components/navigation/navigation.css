@@ -3,6 +3,11 @@
     justify-content: space-around;
     padding-left: 0;
 }
+
+.nav-container{
+    width: 100%;
+}
+
 .nav-link{
     list-style: none;
     transition: transform 0.3s;

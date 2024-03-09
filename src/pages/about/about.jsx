@@ -1,5 +1,6 @@
 
-import profileImage from '../assets/half-my-face.jpg'
+import profileImage from '../../assets/half-my-face.jpg'
+import "./about.css"
 
 function AboutMe(){
     return(

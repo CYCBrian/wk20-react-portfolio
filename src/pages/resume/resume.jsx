@@ -5,10 +5,11 @@
 // Import PDF worker script
 // import { pdfjs } from 'pdfjs-dist/build/pdf';
 
-import ResumeFile from "../assets/Resume-BrianCheung.pdf";
-import Css3Logo from '../assets/css3-01-svgrepo-com.svg'
-import Html5Logo from '../assets/html-5-logo-svgrepo-com.svg'
-import JavascriptLogo from '../assets/javascript-155-svgrepo-com.svg'
+import ResumeFile from "../../assets/Resume-BrianCheung.pdf";
+import Css3Logo from '../../assets/css3-01-svgrepo-com.svg'
+import Html5Logo from '../../assets/html-5-logo-svgrepo-com.svg'
+import JavascriptLogo from '../../assets/javascript-155-svgrepo-com.svg'
+import "./resume.css"
 
 
 const Resume = () => {

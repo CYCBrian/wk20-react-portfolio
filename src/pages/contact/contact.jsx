@@ -1,5 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useState } from "react";
+import { validateEmail } from "../../util/helpers/validation";
+import "./contact.css"
 
 function Contact() {
   const [name, setName] = useState("");
@@ -23,6 +25,16 @@ function Contact() {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
+    if (!name) {
+      alert("Please enter your name.");
+      return;
+    } else if (!validateEmail(email)) {
+      alert("Please enter a valid email address.");
+      return;
+    } else if (!message) {
+      alert("Please don't leave the message blank.");
+      return;
+    }
     alert("Thanks for reaching out!");
     setName("");
     setEmail("");
