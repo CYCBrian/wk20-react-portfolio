@@ -1,10 +1,10 @@
-import GitHubLogo from "../../assets/github-142-svgrepo-com.svg";
-import LinkedInLogo from "../../assets/linkedin-svgrepo-com.svg";
+import GitHubLogo from "../../assets/link-icons/github-142-svgrepo-com.svg";
+import LinkedInLogo from "../../assets/link-icons/linkedin-svgrepo-com.svg";
 import "./footer.css";
 
 function PortfolioFooter() {
   return (
-    <footer>
+    <footer className="footer-container">
       <section className="footer-links">
         <a
           className="footer-link"

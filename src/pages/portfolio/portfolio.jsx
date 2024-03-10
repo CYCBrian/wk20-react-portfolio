@@ -2,8 +2,8 @@
 // import images from assests later
 import "./portfolio.css";
 
-import kumamoImage from "../../assets/kumamo-image.jpg";
-import weatherImage from "../../assets/weather-dashboard.jpg";
+import kumamoImage from "../../assets/projects/kumamo-image.jpg";
+import weatherImage from "../../assets/projects/weather-dashboard.jpg";
 
 const projects = [
   {

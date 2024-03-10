@@ -1,13 +1,13 @@
 
-import profileImage from '../../assets/half-my-face.jpg'
+import profileImage from '../../assets/profile/half-my-face.jpg'
 import "./about.css"
 
 function AboutMe(){
     return(
         <section className='about-container'>
-            <h3 className='page-title'>
+            <h2 className='page-title'>
                 About me
-            </h3>
+            </h2>
             <img className='about-pic' src={profileImage} alt="Profile Pic" />
             <section className='about-description'>
             <p className='about-text'>
