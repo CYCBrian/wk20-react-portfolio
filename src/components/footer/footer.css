@@ -1,0 +1,25 @@
+.footer-container{
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding-top: 1.5rem;
+}
+.footer-icon {
+  max-height: 1.5rem;
+  transition: transform 0.3s;
+}
+
+.footer-icon:hover {
+  transform: scale(1.50);
+  transition: 0.3s;
+}
+.footer-message {
+  font-size: 0.75rem;
+}
