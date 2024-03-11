@@ -1,0 +1,45 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  min-height: calc(100vh - 20rem);
+}
+
+.my-contact-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.my-contact{
+    text-align: start;
+    font-size: large;
+}
+
+.form-container {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.contact-information {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-input {
+  font-size: 20px;
+  
+}
+
+.message-input {
+  min-height: 5rem;
+  min-width: 20rem;
+  font-size: 20px;
+
+}
+
+.button-container {
+  margin-top: 2rem;
+}

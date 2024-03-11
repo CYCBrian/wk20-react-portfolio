@@ -61,6 +61,7 @@ function ProjectCard(props) {
 function ProjectList() {
   return (
     <section className="project-container">
+      <h2>My Projects</h2>
       {projects.map((project) => (
         <ProjectCard
           key={project.id}

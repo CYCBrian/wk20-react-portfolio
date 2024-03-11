@@ -3,8 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    min-height: calc(100vh - 34px);
-    margin-top: rem;
+    min-height: calc(100vh - 20rem);
 }
 
 .title-container{
@@ -15,7 +14,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;
+    gap: 1.5rem;
     background-color: rgba(240, 248, 255, 0.15);
     padding-left: 7rem;
     padding-right: 7rem;
