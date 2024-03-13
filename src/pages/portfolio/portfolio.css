@@ -23,6 +23,11 @@
     padding: 1rem;
 }
 
+.project-description{
+    text-align: left;
+    padding: 1rem;
+}
+
 .project-link-container{
     display: flex;
     gap: 1rem;
