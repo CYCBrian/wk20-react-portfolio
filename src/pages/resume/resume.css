@@ -60,7 +60,3 @@ button:hover {
   background-color: #2d3075;
   transform: scale(1.25);
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}

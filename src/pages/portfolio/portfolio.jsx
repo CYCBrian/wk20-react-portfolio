@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-// import images from assests later
 import "./portfolio.css";
 
 import kumamoImage from "../../assets/projects/kumamo-image.jpg";

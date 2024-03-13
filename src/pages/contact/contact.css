@@ -2,13 +2,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3rem;
+  gap: 1.5rem;
   min-height: calc(100vh - 20rem);
 }
 
 .my-contact-container{
     display: flex;
     flex-direction: column;
+    background-color: rgba(240, 248, 255, 0.15);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-width: 50rem;
 }
 
 .my-contact{
@@ -20,6 +26,12 @@
   display: flex;
   gap: 3rem;
   align-items: center;
+  background-color: rgba(240, 248, 255, 0.15);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  max-width: 50rem;
 }
 
 .contact-information {
@@ -30,16 +42,18 @@
 
 .contact-input {
   font-size: 20px;
-  
 }
 
 .message-input {
   min-height: 5rem;
   min-width: 20rem;
   font-size: 20px;
-
 }
 
 .button-container {
   margin-top: 2rem;
+}
+
+.contact-warning{
+  color: rgb(230, 75, 75);
 }
