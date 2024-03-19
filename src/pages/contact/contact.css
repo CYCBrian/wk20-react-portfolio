@@ -33,7 +33,6 @@
 }
 
 .my-contact{
-    text-align: start;
     font-size: large;
     word-wrap: break-word;
     white-space: pre-wrap;
@@ -94,5 +93,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .my-contact{
+    max-width: 20rem;
   }
 }
