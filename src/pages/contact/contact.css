@@ -17,9 +17,26 @@
     max-width: 50rem;
 }
 
+.contact-list{
+  list-style: none;
+  padding: 0;
+}
+
+.contact-item{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.contact-logo{
+  max-width: 2rem;
+}
+
 .my-contact{
     text-align: start;
     font-size: large;
+    word-wrap: break-word;
+    white-space: pre-wrap;
 }
 
 .form-container {
@@ -31,7 +48,6 @@
   padding-right: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  max-width: 50rem;
 }
 
 .contact-information {
@@ -45,8 +61,12 @@
 }
 
 .message-input {
-  min-height: 5rem;
-  min-width: 20rem;
+  height: 5rem;
+  width: 20rem;
+  max-height: 100%;
+  max-width: 100%;
+  min-height: 2rem;
+  min-width: 10rem;
   font-size: 20px;
 }
 
@@ -56,4 +76,23 @@
 
 .contact-warning{
   color: rgb(230, 75, 75);
+}
+
+
+@media screen and (max-width: 706px ) {
+  .form-container{
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .contact-information{
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 507px) {
+  .contact-item{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

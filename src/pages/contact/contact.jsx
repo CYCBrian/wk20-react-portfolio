@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { validateEmail } from "../../util/helpers/validation";
+import emailLogo from "../../assets/link-icons/email-svgrepo-com.svg"
+import phoneLogo from "../../assets/link-icons/phone-svgrepo-com.svg"
 import "./contact.css";
 
 function Contact() {
@@ -46,10 +48,20 @@ function Contact() {
     <section className="contact-container">
       <h2>Contact me!</h2>
       <section className="my-contact-container">
-        <p className="my-contact">
-          Email: not_giving_you_my_email_on_an_assignment@gmail.com
-        </p>
-        <p className="my-contact">Number: 657-111-1111</p>
+        <ul className="contact-list">
+          <li className="contact-item">
+            <img className="contact-logo" src={emailLogo} alt="Email logo" />
+            <p className="my-contact">
+              notgivingoutmyemailinanassignment@gmail.com
+            </p>
+          </li>
+          <li className="contact-item">
+            <img className="contact-logo" src={phoneLogo} alt="Phone logo" />
+            <p className="my-contact">
+              657-111-1111
+            </p>
+          </li>
+        </ul>
       </section>
 
       <section className="contact-half">

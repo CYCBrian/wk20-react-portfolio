@@ -27,3 +27,13 @@
     font-weight: 600;
   color: #ffb452;
 }
+
+@media screen and (max-width: 507px) {
+  .nav-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 2rem;
+  }
+  
+}

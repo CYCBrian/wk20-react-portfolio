@@ -22,4 +22,5 @@
 }
 .footer-message {
   font-size: 0.75rem;
+  text-wrap: wrap;
 }

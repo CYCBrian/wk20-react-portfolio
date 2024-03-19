@@ -10,6 +10,7 @@
 .project-card{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: rgba(240, 248, 255, 0.15);
     max-width: 50rem;
 }
@@ -21,6 +22,8 @@
 
 .project-image{
     padding: 1rem;
+    max-width: 100%;
+    height: auto;
 }
 
 .project-description{
@@ -49,4 +52,4 @@
     transition: 0.3s;
 }
 
-/* doesn't seem to work for some reason
+/* /* doesn't seem to work for some reason */

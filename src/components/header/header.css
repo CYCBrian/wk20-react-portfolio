@@ -1,7 +1,13 @@
 .header-h2{
-    margin: 0.25rem;
+    margin: 0rem;
 }
 .header-name{
     margin-top: 0rem;
     margin-bottom: 0.75rem
+}
+
+@media screen  and (max-width: 400px) {
+    .header-name{
+        font-size:3rem;
+    }
 }
