@@ -28,10 +28,13 @@
     flex-direction: row;
     justify-content: center;
     gap: 3rem;
+    flex-wrap: wrap;
 }
 
 .competency-logo{
-    max-width: 7rem;
+    max-width: 100%;
+    width: 7rem;
+    height: auto;
     transition: transform 0.2s;
 }
 
@@ -59,4 +62,18 @@ button:hover {
   border-color: #646cff;
   background-color: #2d3075;
   transform: scale(1.25);
+}
+
+@media screen and (max-width: 993px) {
+    .competency-container{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+@media screen and (max-width: 703px) {
+    .competency-container{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
