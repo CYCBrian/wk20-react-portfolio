@@ -27,12 +27,12 @@ To run the application:
 
 1. Clone this repository.
 2. Install dependencies using `npm install`.
-3. Start the server by running `npm run start` in the terminal.
+3. Start the website by running `npm run start` in the terminal to access the website.
 
 ## Technologies Used
 
 - ![Static Badge](https://img.shields.io/badge/Javascript-orange?style=plastic)
-- ![Static Badge](https://img.shields.io/badge/CSSs-green?style=plastic)
+- ![Static Badge](https://img.shields.io/badge/CSS-green?style=plastic)
 - ![Static Badge](https://img.shields.io/badge/React-purple?style=plastic)
 
 
