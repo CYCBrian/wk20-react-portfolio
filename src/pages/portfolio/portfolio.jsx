@@ -7,10 +7,21 @@ import cmsImage from "../..//assets/projects/employee-tracker-cms.jpg"
 import jatePWA from "../../assets/projects/Jate-PWA.jpg"
 import noteTakerImage from "../../assets/projects/note-taker.jpg"
 import workDaySchedulerImage from "../../assets/projects/work-day-scheduler.jpg"
+import fitzysFadesImage from "../../assets/projects/Fitzys_Fades.jpg"
 
 const projects = [
   {
     id: 0,
+    title: "Fitzy's Fades",
+    image: fitzysFadesImage,
+    description:
+      "Full Stack website that allows clients to create an account to book appointments and send messages to the business, and barber's to view and manage booked appointments.",
+    repo: "https://github.com/JohnM89/Fitzys_Fades",
+    live: "https://fizzyfads.onrender.com/",
+    demo: ""
+  },
+  {
+    id: 1,
     title: "Kumamo",
     image: kumamoImage,
     description:
@@ -20,7 +31,7 @@ const projects = [
     demo: ""
   },
   {
-    id: 1,
+    id: 2,
     title: "Weather Dashboard",
     image: weatherImage,
     description:
@@ -30,7 +41,7 @@ const projects = [
     demo: ""
   },
   {
-    id: 2,
+    id: 3,
     title: "Employee Tracker CMS",
     image: cmsImage,
     description:
@@ -40,7 +51,7 @@ const projects = [
     demo: "https://drive.google.com/file/d/1_3gC0REaLzTGM9XKmVFA-trRgB6dQa_G/view?usp=sharing"
   },
   {
-    id: 3,
+    id: 4,
     title: "JATE-PWA",
     image: jatePWA,
     description:
@@ -50,7 +61,7 @@ const projects = [
     demo: ""
   },
   {
-    id: 4,
+    id: 5,
     title: "Note Taker",
     image: noteTakerImage,
     description:
@@ -60,7 +71,7 @@ const projects = [
     demo: ""
   },
   {
-    id: 5,
+    id: 6,
     title: "Work Day Scheduler",
     image: workDaySchedulerImage,
     description:
