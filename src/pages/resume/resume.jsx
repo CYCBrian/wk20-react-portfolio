@@ -9,7 +9,7 @@
 //have not been able to implement properly so shelved for now
 // but want to keep for future attempts
 
-import ResumeFile from "../../assets/resume/Resume-BrianCheung.pdf";
+import ResumeFile from "../../assets/resume/Resume_BrianChakYinCheung.pdf";
 import Css3Logo from "../../assets/logos/css-3-svgrepo-com.svg";
 import Html5Logo from "../../assets/logos/html-5-logo-svgrepo-com.svg";
 import JavascriptLogo from "../../assets/logos/javascript-svgrepo-com.svg";
@@ -32,7 +32,7 @@ const Resume = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = ResumeFile;
-    link.download = "Resume-BrianCheung.pdf";
+    link.download = "Resume_BrianChakYinCheung.pdf";
     link.click();
   };
   return (
