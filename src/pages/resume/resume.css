@@ -8,6 +8,8 @@
 
 .title-container{
     margin-bottom: 1rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
 }
 
 .competency-container{
@@ -21,6 +23,7 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
     max-width: 50rem;
+    backdrop-filter: drop-shadow(0px 0px 10px #000000);
 }
 
 .logo-container{
@@ -36,11 +39,13 @@
     width: 7rem;
     height: auto;
     transition: transform 0.2s;
+    filter: saturate(10%);
 }
 
 .competency-logo:hover{
     transform: scale(1.25);
     transition: 0.2s;
+    filter: saturate(100%);
 }
 
 .download-container{

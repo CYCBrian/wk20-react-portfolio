@@ -23,8 +23,12 @@
   color: #646cff;
 }
 
+.nav-link a:hover {
+  color: #ffb452;
+}
+
 .nav-link a.active {
-    font-weight: 600;
+  font-weight: 600;
   color: #ffb452;
 }
 
