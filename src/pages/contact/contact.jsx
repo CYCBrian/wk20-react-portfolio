@@ -46,19 +46,19 @@ function Contact() {
 
   return (
     <section className="contact-container">
-      <h2>Contact me!</h2>
+      <h2>Hit me up!</h2>
       <section className="my-contact-container">
         <ul className="contact-list">
           <li className="contact-item">
             <img className="contact-logo" src={emailLogo} alt="Email logo" />
             <p className="my-contact">
-              notgivingoutmyemailinanassignment@gmail.com
+              briancyc93@gmail.com
             </p>
           </li>
           <li className="contact-item">
             <img className="contact-logo" src={phoneLogo} alt="Phone logo" />
             <p className="my-contact">
-              657-111-1111
+              647-523-3869
             </p>
           </li>
         </ul>

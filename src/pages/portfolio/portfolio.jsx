@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
 import "./portfolio.css";
 
@@ -132,7 +133,7 @@ function ProjectCard(props) {
 function ProjectList() {
   return (
     <section className="project-container">
-      <h2>My Projects</h2>
+      <h2>Here are a few projects I've done!</h2>
       {projects.map((project) => (
         <ProjectCard
           key={project.id}

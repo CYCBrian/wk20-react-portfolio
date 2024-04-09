@@ -17,13 +17,12 @@
     flex-direction: column;
     justify-content: center;
     gap: 1.5rem;
-    background-color: rgba(240, 248, 255, 0.15);
     padding-left: 7rem;
     padding-right: 7rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     max-width: 50rem;
-    backdrop-filter: drop-shadow(0px 0px 10px #000000);
+    filter: drop-shadow(0px 0px 5px #ffffff75);
 }
 
 .logo-container{
@@ -39,7 +38,7 @@
     width: 7rem;
     height: auto;
     transition: transform 0.2s;
-    filter: saturate(10%);
+    filter: saturate(0%);
 }
 
 .competency-logo:hover{

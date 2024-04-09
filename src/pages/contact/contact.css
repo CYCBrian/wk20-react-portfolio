@@ -9,13 +9,14 @@
 .my-contact-container{
     display: flex;
     flex-direction: column;
-    background-color: rgba(240, 248, 255, 0.15);
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    max-width: 50rem;
-    backdrop-filter: drop-shadow(0px 0px 10px #000000);
+    max-width: 100%;
+    width: 37.5rem;
+    height: auto;
+    box-shadow: 0 5px 10px 0px rgb(0, 0, 0, .5);
 }
 
 .contact-list{
@@ -43,12 +44,14 @@
   display: flex;
   gap: 3rem;
   align-items: center;
-  background-color: rgba(240, 248, 255, 0.15);
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  filter: drop-shadow(0px 0px 10px #000000);
+  max-width: 100%;
+  width: 37.5rem;
+  height: auto;
+  box-shadow: 0 5px 10px 0px rgb(0, 0, 0, .5);
 }
 
 .contact-information {
@@ -58,7 +61,12 @@
 }
 
 .contact-input {
-  font-size: 20px;
+  font-size: 16px;
+  padding: 10px;
+  border-style: none;
+  border-bottom-style: solid;
+  background-color: #242424;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .message-input {
@@ -67,8 +75,12 @@
   max-height: 100%;
   max-width: 100%;
   min-height: 2rem;
-  min-width: 10rem;
-  font-size: 20px;
+  font-size: 16px;
+  padding: 10px;
+  border-style: none;
+  border-bottom-style: solid;
+  background-color: #242424;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .button-container {
@@ -81,9 +93,18 @@
 
 
 @media screen and (max-width: 706px ) {
+  .my-contact-container{
+    width: 21.5rem;
+  }
   .form-container{
     flex-direction: column;
+    align-items: flex-start;
     gap: 1.5rem;
+    width: 21.5rem;
+
+  }
+  .contact-input{
+    width: 148.5%;
   }
   .contact-information{
     gap: 1rem;

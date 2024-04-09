@@ -25,20 +25,21 @@ function Navigation() {
         </li>
         <li className="nav-link">
           <Link
-            to="/contact"
-            className={currentPage === "/contact" ? "active" : ""}
-          >
-            Contact
-          </Link>
-        </li>
-        <li className="nav-link">
-          <Link
             to="/resume"
             className={currentPage === "/resume" ? "active" : ""}
           >
             Resume
           </Link>
         </li>
+        <li className="nav-link">
+          <Link
+            to="/contact"
+            className={currentPage === "/contact" ? "active" : ""}
+          >
+            Contact
+          </Link>
+        </li>
+
       </ul>
     </section>
   );
