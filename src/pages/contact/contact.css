@@ -61,6 +61,12 @@
     white-space: pre-wrap;
 }
 
+.contact-half{
+  display: flex;
+  flex-direction: column;
+  gap: 6.5rem;
+}
+
 .form-container {
   display: flex;
   gap: 3rem;
@@ -111,7 +117,6 @@
 .contact-warning{
   color: rgb(230, 75, 75);
 }
-
 
 @media screen and (max-width: 706px ) {
   .my-contact-container{

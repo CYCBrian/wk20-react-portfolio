@@ -75,7 +75,7 @@ function Contact() {
 
   return (
     <section className={`contact-container ${isVisible ? 'visible' : ''}`}>
-      <h2>Hit me up!</h2>
+      {/* <h2>Hit me up!</h2>
       <section className="my-contact-container">
         <ul className="contact-list">
           <li className="contact-item">
@@ -91,10 +91,10 @@ function Contact() {
             </p>
           </li>
         </ul>
-      </section>
+      </section> */}
 
       <section className="contact-half">
-        <h2>Or send me a message!</h2>
+        <h2>Hit me up! Always down for a chat.</h2>
         <form className="contact-form" ref={form} onSubmit={handleFormSubmit}>
           <section className="form-container">
             <section className="contact-information">
