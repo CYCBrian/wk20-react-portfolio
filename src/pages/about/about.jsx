@@ -1,10 +1,16 @@
-
+import { useState } from "react";
+import { useEffect } from "react";
 import profileImage from '../../assets/profile/half-my-face.jpg'
 import "./about.css"
 
 function AboutMe(){
+    const [isVisible, setIsVisable] = useState(false)
+    useEffect(() =>{
+        setIsVisable(true)
+      }, []);
+    
     return(
-        <section className='about-container'>
+        <section className={`about-container ${isVisible ? 'visible' : ''}`}>
             <h2 className='page-title'>
                 Hi! This is my face.
             </h2>

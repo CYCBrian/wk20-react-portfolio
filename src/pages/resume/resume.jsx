@@ -8,7 +8,8 @@
 //commented out code is for a functionality to view the resume on the site.
 //have not been able to implement properly so shelved for now
 // but want to keep for future attempts
-
+import { useState } from "react";
+import { useEffect } from "react";
 import ResumeFile from "../../assets/resume/Resume_BrianChakYinCheung.pdf";
 import Css3Logo from "../../assets/logos/css-3-svgrepo-com.svg";
 import Html5Logo from "../../assets/logos/html-5-logo-svgrepo-com.svg";
@@ -28,7 +29,10 @@ import "./resume.css";
 const Resume = () => {
   //   // Set workerSrc property of GlobalWorkerOptions
   // pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
-
+  const [isVisible, setIsVisable] = useState(false)
+  useEffect(() =>{
+      setIsVisable(true)
+    }, []);
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = ResumeFile;
@@ -36,7 +40,7 @@ const Resume = () => {
     link.click();
   };
   return (
-    <section className="resume-container">
+    <section className={`resume-container ${isVisible ? 'visible' : ''}`}>
       <section className="title-container">
         <h2 className="competency-title">Things I'm sort of competent at:</h2>
       </section>

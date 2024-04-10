@@ -1,3 +1,23 @@
+@keyframes bouncyFadeIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .visible {
+    opacity: 1;
+  }
+  
+
 .about-container{
     display: flex;
     flex-direction: column;
@@ -5,7 +25,9 @@
     gap: 0.5rem;
     min-height: calc(100vh - 20rem);
     padding-left: 0.5rem;
-    padding-right: 0.5rem;   
+    padding-right: 0.5rem;
+    animation: bouncyFadeIn 1s ease forwards;
+   
 }
 
 .about-pic{

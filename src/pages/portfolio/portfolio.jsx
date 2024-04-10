@@ -1,5 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
+import { useState } from "react";
+import { useEffect } from "react";
 import "./portfolio.css";
 
 import kumamoImage from "../../assets/projects/kumamo-image.jpg";
@@ -131,8 +133,13 @@ function ProjectCard(props) {
 }
 
 function ProjectList() {
+  const [isVisible, setIsVisable] = useState(false)
+  useEffect(() =>{
+      setIsVisable(true)
+    }, []);
+  
   return (
-    <section className="project-container">
+    <section className={`project-container ${isVisible ? 'visible' : ''}`}>
       <h2>Here are a few projects I've done!</h2>
       {projects.map((project) => (
         <ProjectCard
