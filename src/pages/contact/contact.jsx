@@ -3,8 +3,8 @@ import { useEffect } from "react";
 import { useRef } from "react";
 import emailjs from '@emailjs/browser'
 import { validateEmail } from "../../util/helpers/validation";
-import emailLogo from "../../assets/link-icons/email-svgrepo-com.svg"
-import phoneLogo from "../../assets/link-icons/phone-svgrepo-com.svg"
+// import emailLogo from "../../assets/link-icons/email-svgrepo-com.svg"
+// import phoneLogo from "../../assets/link-icons/phone-svgrepo-com.svg"
 import "./contact.css";
 
 function Contact() {
